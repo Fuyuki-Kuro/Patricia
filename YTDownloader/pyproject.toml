@@ -1,0 +1,12 @@
+[project]
+name = "ytdownloader"
+version = "0.1.0"
+description = "Um bot do Telegram que permite o download de vídeos do YouTube diretamente no seu chat. O bot utiliza a biblioteca yt-dlp para baixar vídeos na melhor qualidade disponível."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.11.8",
+    "pytelegrambotapi>=4.24.0",
+    "python-dotenv>=1.0.1",
+    "yt-dlp>=2024.11.18",
+]
